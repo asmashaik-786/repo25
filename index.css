@@ -1,0 +1,74 @@
+body{
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/486/610/323/headphones-women-music-headphones-girl-monochrome-black-background-1920x1080-entertainment-music-hd-art-wallpaper-preview.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: right;
+
+}
+h.highlight{
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(111, 111, 170);
+    font-size:90px;
+    text-align:left;
+}
+h.highlight:hover{
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(198, 162, 167);
+    font-size:95px;
+    text-align:left;
+}
+img{
+    border-radius:70%;
+    width:80px;
+    height:80px;
+}
+p{
+    font-size:28px;
+    font-family:cursive;
+    color:rgb(238, 226, 226);
+    text-align:start;
+}
+p1{
+    font-size:28px;
+    color:rgb(220, 208, 208);
+    font-family:cursive;
+    text-align:left;
+}
+p2{
+font-size:40px;
+color:rgb(228, 127, 127);
+font-family:cursive;
+text-align:left;
+}
+#myDIV {
+    outline: 2px solid black;
+    animation: mymove 3s infinite;
+    padding:1px;
+  }
+  
+  @keyframes mymove {
+    50% {outline: 2px solid rgb(202, 214, 218);}
+  }
+button{
+    font-size:100px;
+    padding:0%;
+}
+.fa {
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
